@@ -1,6 +1,6 @@
 from collections import deque
 
-with open("maps/map01.txt", "r") as f:
+with open("Map/map01.txt", "r") as f:
     labyrinth = [list(line.strip()) for line in f if line.strip()]
 
 # Find start (A) and end (B) positions
